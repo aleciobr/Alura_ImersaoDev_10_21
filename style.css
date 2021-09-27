@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+body{
+    min-height: 100vh;
+    background: linear-gradient(#f8d060,#aa8725);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Stick No Bills', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    height: 90%;
+    width: 90%;
+    background: #ececec;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px #000000;
+    top: 15px;
+    position: absolute;
+}
+
+.photo img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border-style: solid 1px #000;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    box-shadow: 3px 2px 4px #555;
+}
