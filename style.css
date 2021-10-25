@@ -1,130 +1,147 @@
-*{
+body{
     margin: 0;
     padding: 0;
-    max-width: 100%;
-    max-height: 100%;
-}
-
-body{
-    min-height: 100vh;
-    background: linear-gradient(#f8d060,#aa8725);
+    font-family: 'Stick No Bills', sans-serif;
+    background: linear-gradient(to bottom, #ecd02d, #8a7815);
     background-size: 100%;
     background-repeat: no-repeat;
-    font-family: 'Stick No Bills', sans-serif;
-    display: flex;
-    justify-content: center;
+    min-height: 100vh;
 }
 
 .container{
-    height: 90%;
-    width: 90%;
-    background: #ececec;
-    border-radius: 20px;
-    box-shadow: 5px 5px 20px #000000;
-    top: 15px;
-    position: absolute;
-}
-
-.photo img{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border-style: solid 1px #000;
-    position: absolute;
-    top: 30px;
-    left: 50px;
-    box-shadow: 3px 2px 4px #555;
-}
-
-.person{
-    margin-top: 60px;
-    margin-left: 240px;
-}
-
-.person h1{
-    font-size: 60px;
-    font-weight: 600;
-}
-
-.person p{
-    font-size: 30px;
-    font-weight: 300;
-}
-
-.person button{
-    position: absolute;
-    right: 50px;
-    top: 50px;
-    height: 40px;
-    width: 120px;
-    background: none;
-    color: #000000;
-    border-radius: 20px;
-}
-
-.projetos-menu{
-    display: flex;
-    flex-direction: column;
-    background: linear-gradient(to right, #fad367, #fce198);
-    margin-top: 45px;
-    margin-left: 25px;
-    width: 70%;
-    height: 57%;
+    background: #edf4ff;
+    color: #1c1c1c;
+    margin: 50px;
+    padding: 20px;
     border-radius: 5px;
+    box-shadow: 6px 6px 6px #0e1d2f;
+}
+
+.topo{
+    display: flex;
+    align-items: center;
+}
+
+.topo img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+
+.corpo{
+    display: flex;
+    align-items: center;
+}
+
+.info{
+    margin-left: 32px;
+}
+
+.info h1{
+    font-weight: 700;
+    font-size: 72px;
+}
+
+h3{
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.info button{
+    padding: 10px;
+    background: none;
+    border-radius: 25px;
+    font-size: 20px;
     position: absolute;
+    top: 100px;
+    right: 100px;
+}
+
+.info span{
+    
 }
 
 .projetos{
-    list-style:none;
-    font-weight: 400;
-    font-size: 36px;
+    width: 750vh;
+    height: 164vh;
+    background: linear-gradient(to left,#dfd28c, #ffee8b);
+    padding: 10px;
+    display: flex;
+    align-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
 }
 
-.itens{
+.projetos ul{
     list-style-type: none;
-    font-size: 24px;
-    font-weight: 200;
-    line-height: 56px;
 }
 
-.itens a{
-    color: #000000;
+.projetos p{
     text-decoration: none;
+    color: #0e1d2f;
+    font-size: 30px;
+    padding-left: 400px;
 }
 
 .conquista{
+    width: 500vh;
+    height: 164vh;
+    background: linear-gradient(to left,#dfd28c, #ffee8b);
+    margin-left: 15px;
+    padding: 5px;
     display: flex;
-    flex-direction: column;
-    background: linear-gradient(to right, #fad367, #fce198);
-    margin-top: 45px;
-    right: 25px;
-    width: 22%;
-    height: 57%;
-    border-radius: 5px;
-    position: absolute;
+    align-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
 }
 
+.conquista ul{
+    list-style-type: none;
+}
+
+.conquista a{
+    text-decoration: none;
+    color: #0e1d2f;
+    font-size: 30px;
+}
 
 .dark{
-    background: linear-gradient(#5f5027,#423206);
+    background: linear-gradient(to bottom, #645b27, #383002);
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
 .dark .container{
-    background: #5a5a5a;
-    border-radius: 20px;
+    background: #adadad;
+    color: #e9e9e9;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 10px #3f3f3f;
 }
 
-.dark .person{
-    color: #ececec;
+.dark .info{
+    color: #1c1c1c;
 }
 
-.dark .person button{
-    color: #ececec;
-    border-color: #ececec;
+.dark .info button{
+    color: #e9e9e9;
+    border-color: #e9e9e9;
 }
 
-.dark .projetos-menu{
-    color: #696969;
+.dark .conquista{
+    background: linear-gradient(to bottom, #968c54, #5e5214);
+}
+
+.dark .conquista a{
+    color: #e9e9e9;
+}
+
+.dark .projetos{
+    background: linear-gradient(to bottom, #968c54, #5e5214);
+}
+
+.dark .projetos p{
+    color: #e9e9e9;
 }

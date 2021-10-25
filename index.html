@@ -8,42 +8,49 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
-        <title>Donkey Kong Portifolio</title>
+        <title>Portfólio Temático</title>
     </head>
     <body>
         <div class="container">
-            <div class="photo">
-                <img src="http://criticalhits.com.br/wp-content/uploads/2013/06/donkey-kong-e3.jpg" alt="dk">
-            </div>
-            <div class="person">
-                <h1>Donkey Kong</h1>
-                <p>O primeiro exemplo de jogo Estilo Plataforma.</p>
-                <button type="submit" onClick="blackMode()">Alterar Tema</button>
-            </div>
-            <div class="projetos-menu">
-                <ul class="projetos">
-                    <h3>Projetos</h3>
-                    <li class="itens">
-                        <p>Calculadora Alura</p>
-                        <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="yLgYvxj" data-preview="true" data-user="aleciobr" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-                        <span>See the Pen <a href="https://codepen.io/aleciobr/pen/yLgYvxj">
-                        Imersao_Dev Alura 02</a> by Bruno Luis Alécio Santos (<a href="https://codepen.io/aleciobr">@aleciobr</a>)
-                        on <a href="https://codepen.io">CodePen</a>.</span>
-                        </p>
-                        <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-                    </li>
-                    <li class="itens">
-                        <p>Quem é esse Pokêmon?</p>
-                        <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="GRrpxwQ" data-preview="true" data-user="aleciobr" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-                        <span>See the Pen <a href="https://codepen.io/aleciobr/pen/GRrpxwQ">
-                        Imersao_Dev Alura A02 Desafio 1</a> by Bruno Luis Alécio Santos (<a href="https://codepen.io/aleciobr">@aleciobr</a>)
-                        on <a href="https://codepen.io">CodePen</a>.</span>
-                        </p>
-                        <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-                    </li>
-                </ul>
-            </div>
-            <div class="conquista"></div>
+            <header class="topo">
+                <img src="http://criticalhits.com.br/wp-content/uploads/2013/06/donkey-kong-e3.jpg" alt="dk" class="photo">
+                <div class="info">
+                    <h1>Donkey Kong</h1>
+                    <h3>O primeiro exemplo de jogo Estilo Plataforma.</h3>
+                    <button type="submit" onClick="blackMode()">Alterar Tema</button>
+                </div>
+            </header>
+            <main class="corpo">
+                <div class="projetos">
+                    <ul>
+                        <h3>Projetos</h3>
+                        <li class="itens" id="1">
+                            <p>Calculadora Alura</p>
+                            <p class="codepen" data-height="400" data-default-tab="html,result" data-slug-hash="yLgYvxj" data-preview="true" data-user="aleciobr" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/aleciobr/pen/yLgYvxj">
+                            Imersao_Dev Alura 02</a> by Bruno Luis Alécio Santos (<a href="https://codepen.io/aleciobr">@aleciobr</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                            </p>
+                            <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                        </li>
+                        <li class="itens" id="2">
+                            <p>Quem é esse Pokêmon?</p>
+                            <p class="codepen" data-height="400" data-default-tab="html,result" data-slug-hash="GRrpxwQ" data-preview="true" data-user="aleciobr" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/aleciobr/pen/GRrpxwQ">
+                            Imersao_Dev Alura A02 Desafio 1</a> by Bruno Luis Alécio Santos (<a href="https://codepen.io/aleciobr">@aleciobr</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                            </p>
+                            <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                        </li>
+                    </ul>
+                </div>
+                <div class="conquista">
+                    <ul>
+                        <li><a href="#1">💬 Calculadora Alura</a></li>
+                        <li><a href="#2">🕹️ Quem é esse Pokêmon?</a></li>
+                    </ul>    
+                </div>
+            </main>
         </div>
         <script src="master.js"></script>
     </body>
